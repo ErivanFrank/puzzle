@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/onMove.js"></script>
+<!--<script src="js/jquery-1.8.2.js"></script>-->
+
+<script src="js/tests/jquery-1.9.1.js"></script>
+<script src="js/ui/jquery.ui.core.js"></script>
+<script src="js/ui/jquery.ui.widget.js"></script>
+<script src="js/ui/jquery.ui.mouse.js"></script>
+<script src="js/ui/jquery.ui.draggable.js"></script>
+
+<script type="text/javascript" src="http://lib.ivank.net/ivank.js"></script>
+<script type="text/javascript" src="http://tweener.ivank.net/t.js"></script>
+
+
+</head>		
+	
+	<body onload= "areaCanvas()">
+
+		<div id="container">
+
+		<div id="header">
+
+		<h1>PROJETO HTML5</h1>
+
+		</div>
+
+			<div id="menu">
+			<b>Menu</b><br>
+				<input type="file" id="imageLoader"><p>
+				<input type="text" name="qntPecas" size ="10" ><p>
+				<input type="button" id="btnRecorte "value="Recortar" onClick="copy()">				
+			</div>
+
+			<div id="content">			 	
+				
+			</div> 			
+			
+			<div id="footer" >Copyright © erivanfranklin.com</div>
+
+		</div>	
+
+	</body>
+
+</html>
